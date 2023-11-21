@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;0,900;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+}
+
+.neuro {
+  background-color: #e8e8e8;
+  font-family: 'Montserrat', Arial, Helvetica;
+  color: #1f1f1f;
+}
+
+.neuro button {
+  box-shadow: rgba(255, 255, 255, 1) -2vmin -2vmin 6vmin, rgba(138, 138, 138, 0.8) 2vmin 2vmin 6vmin;
+  background: #e0e0e0;
+  color: #1f1f1f;
+  border: solid 0.2vmin #d4d4d4;
+  border-radius: 20vmin;
+  font-size: 13vmin;
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  padding: 2vmin 10vmin;
+  font-family: 'Montserrat', Arial, Helvetica;
+}
+
+.neuro button:hover {
+  cursor: pointer;
+  box-shadow: rgba(255, 255, 255, 1) -2vmin -2vmin 6vmin inset, rgba(138, 138, 138, 0.8) 2vmin 2vmin 6vmin inset;
+  border: solid rgba(255, 255, 255, 0) 0.2vmin;
+}
+
+.neuro a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  display: inline-block
+}
+
+.neuro h1 {
+  font-size: 15vmin;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  padding: 2vmin;
+  margin: 0;
+  height: 4vmin;
+  display: flex;
+  align-items: center;
+  color: #a31f1f;
+}
+
+nav p {
+  font-size: 3vmin;
+  font-family: 'Montserrat'
+}
+footer {
+  font-family: 'Montserrat';
+  color: #a31f1f;
+  position: fixed;
+  bottom: 0;
+  padding: 0.5vmin;
+}
+.glass {
+  background-color: #1c1c1c;
+  font-family: 'Montserrat', Arial, Helvetica;
+  color: #f2f2f2;
+}
+.glass button {
+  cursor: pointer;
+  backdrop-filter: blur(1vmin);
+  background-color: rgba(0,0,0,0);
+  font-family: 'Poppins', Arial, Helvetica;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 5vmin;
+  font-size: 10vmin;
+  font-weight: 900;
+  padding: 2vmin 10vmin;
+  box-shadow: black 0 0 15vmin, rgba(255,255,255,0.4) 0 0.6vmin 4vmin inset, rgba(0,0,0,0.2) 0 -4vmin 4vmin inset, rgba(255,255,255,1) 0 0.6vmin 1.8vmin inset, rgba(255,255,255,0.24) 0 4vmin 4vmin inset,rgba(255,255,255,0.8) 0 0.2vmin 0.1vmin inset;
+  transition: box-shadow 0.2s;
+}
+.glass button:hover {
+  box-shadow: rgba(255,255,255,0.6) 0 0 15vmin, rgba(255,255,255,0.4) 0 0.6vmin 4vmin inset, rgba(0,0,0,0.2) 0 -4vmin 4vmin inset, rgba(255,255,255,1) 0 0.6vmin 1.8vmin inset, rgba(255,255,255,0.24) 0 4vmin 4vmin inset,rgba(255,255,255,0.8) 0 0.2vmin 0.1vmin inset;
+}
+.glass h1 {
+  font-size: 13vmin;
+  font-weight: 300;
+}
+.glass main {
+  background-image: url(webcircle.png);
+  background-size:contain;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
