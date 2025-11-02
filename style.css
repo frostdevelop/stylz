@@ -34,11 +34,12 @@ section {
   font-weight: 300;
   padding: 2vmin 10vmin;
   font-family: 'Montserrat', Arial, Helvetica;
+  transition: box-shadow 0.2s ease;
 }
 
 .neuro button:hover {
   cursor: pointer;
-  box-shadow: rgba(255, 255, 255, 1) -2vmin -2vmin 6vmin inset, rgba(138, 138, 138, 0.8) 2vmin 2vmin 6vmin inset;
+  box-shadow: rgba(255, 255, 255, 0) 0vmin 0vmin 0vmin, rgba(138, 138, 138, 0) 0vmin 0vmin 0vmin, rgba(255, 255, 255, 1) -2vmin -2vmin 6vmin inset, rgba(138, 138, 138, 0.8) 2vmin 2vmin 6vmin inset;
   border: solid rgba(255, 255, 255, 0) 0.2vmin;
 }
 
